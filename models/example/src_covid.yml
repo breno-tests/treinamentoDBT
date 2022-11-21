@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+    - name: rawdata_covid
+      database: 'covid19_sus'
+      schema: rawdata_covid
+      tables:
+        - name: rawdata_covid19_sus_2020
+          description: Raw data from covid data
+          columns:
+            - name: int64_field_0
+              description: Primary key for customers
+              tests:
+                - unique
+                - not_null
