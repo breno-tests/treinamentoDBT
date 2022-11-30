@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: covid19_sus
+      database: 'leega-poc-delivery-inovacao'
+      schema: covid19_sus
+      tables:
+        - name: rawdata_covid19_sus_2020
+          description: Raw data from covid data
